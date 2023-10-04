@@ -27,5 +27,7 @@ Para este ejercicio hemos descargado una imagen `samoyedo.jpg`, a la que le hemo
 En este apartado hemos aplicado las mismas técnicas que en el anterior, además de umbralizar la imagen, pero sobre la imagen del mandril, que se ha usado para el primer ejercicio, para comparar resultados. Además, hemos hecho el mismo análisis que en el primer ejercicio con esta imagen umbralizada. Se observa cómo este último paso permite un análisis de grano más fino, ya que se pueden incluir o excluir valores según la necesidad, en vez de solo tener disponible un conjunto de valores negros o blancos, como pasa con Canny.
 
 ## Muestra de función sobre webcam
+En este ejercicio se manda a elegir una función de vista aplicada a la salida de una cámara, para ello se ha elegido el efecto sobel. El cual se ha apliclado de una forma similar a como se hizo con la imagen, solo que esta vez se superpone a cada frame del vídeo de la cámara.
 
 ## Reinterpretación de procesamiento
+En este último apartado hemos implementado un "filtro" que lo que hace es generar círculos en los bordes del frame. Estos círculos se mueven en una dirección o en otra según donde aparezcam, es decir, se mueven siempre al lado contrario del que aparecieron. Lo que hemos propuesto ha sido que según la cantidad de movimiento que se detecte en la entrada de la cámara, estos círculos tendrán más o menos velocidad, siendo que, a cuanto más movimineto, más velocidad. Aunque en caso de no detectar movimiento, tendrán un velocidad constante, auqnue más reducida.
