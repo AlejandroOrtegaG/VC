@@ -3,3 +3,4 @@ shape*
 .idea
 **/__pycache__
 **/data
+**/runs
