@@ -4,3 +4,6 @@ shape*
 **/__pycache__
 **/data
 **/runs
+**/dataset
+P5/yolov8n-pose.pt
+script.sh
